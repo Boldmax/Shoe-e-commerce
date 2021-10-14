@@ -21,9 +21,6 @@ const Navbar = () => {
     nav ? navbarClass.push("active") : navbarClass.join(" ")
 
 
-
-
-
     const click = () => {
         setToggle(!toggle)
     };

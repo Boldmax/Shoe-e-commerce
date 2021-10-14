@@ -5,7 +5,6 @@ const connectDB = require('./config/db');
 const path = require('path');
 
 
-
 connectDB();
 
 const app = express();
